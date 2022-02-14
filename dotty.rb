@@ -5,7 +5,7 @@ class Dotty < Formula
   sha256 "fe83eeffe8b2124752f5afd7a0e5b5b390b9cc499208162cb724f5677e36916b"
   # mirror "https://www.scala-lang.org/files/archive/scala-2.12.2.tgz"
 
-  depends_on "openjdk@8"
+  depends_on "openjdk@11"
 
   def install
     rm_f Dir["bin/*.bat"]
